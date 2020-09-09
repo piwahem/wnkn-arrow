@@ -10,7 +10,7 @@ class GetUserInformation extends BaseUseCase<UserEntity> {
   GetUserInformation(this._repository);
 
   @override
-  Result create(Map<String, dynamic> params) {
+  Result<UserEntity, Error> create(Map<String, dynamic> params) {
     return _repository.getUserInformation();
   }
 }
