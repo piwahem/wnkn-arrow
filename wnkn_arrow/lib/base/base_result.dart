@@ -59,3 +59,14 @@ class Result<T, Error> {
     }
   }
 }
+
+class AppError{
+
+  Exception exeption;
+
+  AppError._({this.exeption});
+
+  AppError.networkError(Exception e): this._(exeption: e);
+  AppError.emptyError(Exception e): this._(exeption: e);
+  AppError.randomError(Exception e): this._(exeption: e);
+}

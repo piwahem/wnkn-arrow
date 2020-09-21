@@ -1,7 +1,5 @@
 import 'package:wnkn_arrow/base/base_result.dart';
 import 'package:wnkn_arrow/base/base_usecase.dart';
-import 'package:wnkn_arrow/feature/level/domain/level_contract.dart';
-import 'package:wnkn_arrow/feature/level/domain/level_entity.dart';
 import 'package:wnkn_arrow/feature/studymaterial/domain/study_material_contract.dart';
 import 'package:wnkn_arrow/feature/studymaterial/domain/study_material_entity.dart';
 
